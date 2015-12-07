@@ -1,0 +1,741 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(1957)https://service.berlin.de/terminvereinbarung/termin/eintragen.php?buergerID=&buergername=&OID=74365&OIDListe=71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791&datum=2015-12-03&zeit=16:00:00&behoerde=&slots=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de" dir="ltr" class="gr__service_berlin_de translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="robots" content="noindex, nofollow">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Appointment - add data_files/vendor.css">
+<!-- theme switch begin -->
+    <link rel="stylesheet" type="text/css" href="./Appointment - add data_files/bde-bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./Appointment - add data_files/bde-index.css">
+    <link rel="shortcut icon" href="https://service.berlin.de/i9f/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://service.berlin.de/i9f/images/iphone.png" type="image/png">
+<!-- theme switch end -->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="//service.berlin.de/i9f/v4/css/berlin_ie7.css?ts=1448983062" />
+<![endif]-->
+<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="//service.berlin.de/i9f/v4/css/berlin_ie8.css?ts=1448983062" />
+<![endif]-->
+<!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="//service.berlin.de/i9f/v4/css/berlin_ie9.css?ts=1448983062" />
+<![endif]-->
+
+    <!-- "property" validiert nicht, nimm "name" -->
+    <meta name="og:image" content="http://service.berlin.de/i9f/images/facebook_default_icon_land.png">
+    <meta name="og:image:secure_url" content="https://service.berlin.de/i9f/images/facebook_default_icon_land.png">
+    <script type="text/javascript" defer="" async="" src="./Appointment - add data_files/piwik.js"></script><script type="text/javascript" src="./Appointment - add data_files/bo-head.js"></script>
+
+
+<!--
+  layout: std
+  created on: Wed, 02 Dec 2015 18:54:37 +0100
+-->
+
+
+
+
+<!--<link rel="stylesheet" type="text/css" href="styles/i9f/stage/berlin.css" />-->
+
+<title>Appointment - add data</title>
+
+<script type="text/javascript">
+<!--
+
+function nurZiffern(eingabefeld)
+{
+    korrekt = "";
+    StrLen=eingabefeld.value.length;
+    for (var i=0; i<StrLen; i++)
+    {
+        if (!isNaN(eingabefeld.value.substr(i,1)))
+        {
+            korrekt += eingabefeld.value.substr(i,1);
+        }
+    }
+    eingabefeld.value = korrekt;
+}
+
+
+function grundeinstellung()
+{
+    //Diese Funktion macht je nach Bedarf weitere Eingabefelder sichtbar//
+{{if (null != this.document.getElementById("telefonlabel")) this.document.getElementById("telefonlabel").style.display="none";
+if (null != this.document.getElementById("telefon")) this.document.getElementById("telefon").style.display="none";
+}}    return;
+}
+
+
+function CheckInput ()
+{
+    var handy = "";
+    var telefon = "";
+    var name = this.document.getElementById("Nachname").value;
+    var email = this.document.getElementById("EMail").value;
+    if (this.document.getElementById("telefon") != null)
+    {
+        handy = this.document.getElementById("telefon").value;
+    }
+    if (this.document.getElementById("telefonnummer_fuer_rueckfragen") != null)
+    {
+        telefon = this.document.getElementById("telefonnummer_fuer_rueckfragen").value;
+    }
+    if (email.length > 0 ||handy.length > 0)
+    {
+        var text = "Bitte %FCberpr%FCfen Sie noch einmal Ihre Angaben:\n";
+        text +=  "---------------------------------------------------------\n";
+        text +=  "Haben Sie Ihren Namen:    \"" + name + "\"\n";
+        if (email.length > 0)
+        {
+            text += "und Ihre eMail-Adresse:     \"" + email + "\"\n";
+        }
+        if (handy.length > 0)
+        {
+            text += "und Ihre Mobilfunknummer:   \"" + handy + "\"\n";
+        }
+        if (telefon.length > 0)
+        {
+            text += "und Ihre Telefonnummer:   \"" + telefon + "\"\n";
+        }
+        text += "korrekt eingegeben?\n\n";
+        text +="Bei fehlerhaften Angaben kann Ihnen die gew%FCnschte Terminbest%E4tigung per eMail und/oder SMS nicht zugestellt werden. "
+        text +="Sie erhalten auch keine Fehlermeldung!\n\n"
+        text +="Wenn Sie weiter machen m%F6chten, klicken Sie auf OK,\nf%FCr Korrekturen brechen Sie den Vorgang bitte ab und berichtigen Ihre Angaben.\n "
+        Check = confirm (unescape((text)));
+        return Check;
+    }
+    else
+    {
+        return true;
+    }
+}
+-->
+</script>
+
+
+
+<script type="text/javascript" src="./Appointment - add data_files/tx.io"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="./Appointment - add data_files/translateelement.css"></head>
+<body>
+    
+
+                <div class="container-wrapper container-portal-header">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                                                    
+                <!-- NAVIGATION BEGIN: portal -->
+
+                <div class="html5-header portal-header hidden-phone">
+                    <div class="red-line"></div>
+                    <div class="html5-figure main-image">
+                        <a href="http://www.berlin.de/">
+                            <img class="portal-logo hide-mobile" src="./Appointment - add data_files/berlin_de.png" alt="Website: Berlin.de">
+                        </a>
+                    </div><!-- /html5-figure -->
+
+                    <p class="navSkip"><font><font>Navigate directly to:</font></font></p>
+                    <ul class="navSkip">
+                        <li><a href="https://service.berlin.de/terminvereinbarung/termin/eintragen.php?buergerID=&buergername=&OID=74365&OIDListe=71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791&datum=2015-12-03&zeit=16:00:00&behoerde=&slots=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/#aural_institutionssuche"><font><font>search</font></font></a></li>
+                        <li><a href="https://service.berlin.de/terminvereinbarung/termin/eintragen.php?buergerID=&buergername=&OID=74365&OIDListe=71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791&datum=2015-12-03&zeit=16:00:00&behoerde=&slots=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/#aural_maincontent"><font><font>content</font></font></a></li>
+                    </ul>
+
+                    <nav aria-label="Portal Navigation">
+                        <h6 class="aural"><font><font>Portal Navigation</font></font></h6>
+                        <p class="aural" id="bo-portalnavilinkslabel"><font><font>Also visit our other themed areas:</font></font></p>
+                        <ul class="portal-navi" id="bo-portalnavilinks" aria-labelledby="bo-portalnavilinkslabel">
+                            <li class="active"><a href="http://www.berlin.de/politik-verwaltung-buerger/"><font><font>Political, administrative and civil</font></font></a></li>
+                            <li><a href="http://www.berlin.de/kultur-und-tickets/"><font><font>Culture and Entertainment</font></font></a></li>
+                            <li><a href="http://www.berlin.de/tourismus/"><font><font>tourism</font></font></a></li>
+                            <li><a href="http://www.berlin.de/wirtschaft/"><font><font>economy</font></font></a></li>
+                            <li><a href="http://www.berlin.de/special/"><font><font>Themes</font></font></a></li>
+                            <li><a href="http://www.berlin.de/adressen/"><font><font>Berlin Finder</font></font></a></li>
+                            <li><a href="http://www.berlin.de/stadtplan/"><font><font>map</font></font></a></li>
+                        </ul>
+                    </nav><!-- /html5-nav -->
+                </div><!-- /html5-header -->
+                <!-- NAVIGATION END: portal -->
+                                            </div>
+                </div>
+            </div>
+        </div>
+        
+                <div id="top" class="container-wrapper container-content template-land_overview">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+
+                                                <!-- NAVIGATION BEGIN: horizontal-->
+<div class="row">
+    <div class="span12">
+<!--NAVIGATION BEGIN: meta-->
+<div class="html5-header content-header ">
+    <div class="row">
+        <div class="span5">
+            <div class="html5-section section-logo without-logo">
+                                <div class="html5-section text">
+                    <a href="https://service.berlin.de/" title="Link to: Home Service Directory Berlin"><span class="institution"><font><font>Service Portal </font></font></span>
+            <span class="title"><font><font>Berlin</font></font></span></a>                </div>
+            </div>
+        </div>
+
+        <div class="span7">
+                            <div class="html5-nav meta-navi">
+                    <ul class="nav">
+                                            </ul>
+                </div>
+                                        <!--META BEGIN: SEARCH-->
+                <div class="html5-section search navbar">
+                    <div class="navbar-inner">
+                        <div class="nav-collapse search-collapse collapse">
+                            <form class="institutionssuche" method="get" action="https://service.berlin.de/suche/stichwort/">
+    <div class="control-group searchform " role="search">
+        <p class="aural" id="aural_institutionssuche"><font><font>
+            Search on the website 'Service Portal Berlin':        </font></font></p>
+        <input type="search" placeholder="Suchbegriff" name="x" aria-labelledby="aural_institutionssuche" maxlength="255" title="Here you can enter text to search the website &#39;Service Portal Berlin&#39;">
+        <button class="btn global-search-submit" type="submit">
+            <span class="hidden-phone"><font><font>Search</font></font></span>
+        </button>
+    </div>
+</form>
+                        </div>
+                    </div>
+                </div>
+                <!--META END: SEARCH-->
+                    </div>
+    </div>
+</div>
+<!-- NAVIGATION END: meta-->
+    </div>
+</div>
+<div class="row">
+    <div class="span12">
+        <span class="mobile-blue-line hidden-desktop hidden-tablet"></span>
+        <div class="content-navi-wrapper navbar hidden-phone">
+            <div class="html5-nav content-navi-top navbar-inner">
+                <nav class="nav-collapse mainnav-collapse collapse" aria-label="Hauptnavigation">
+                    <h6 class="aural"><font><font>Main navigation</font></font></h6>
+                    <ul class="nav level1">
+                                <li class=" has-submenu">
+            <a href="https://service.berlin.de/themen/"><font><font>Themes</font></font></a>                    </li>
+        <li class=" has-submenu">
+            <a href="https://service.berlin.de/dienstleistungen/"><font><font>Services</font></font></a>                    </li>
+        <li class=" has-submenu">
+            <a href="https://service.berlin.de/standorte/"><font><font>Locations</font></font></a>            <ul class="nav">        <li class="">
+            <a href="https://service.berlin.de/standorte/"><font><font>Locations AZ</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/behoerden/"><font><font>Authorities AZ</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/serviceatlas/"><font><font>Service Atlas</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/auslandsamt/"><font><font>foreigners Authority</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/buergeraemter/"><font><font>Citizens Service Centres</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/finanzaemter/"><font><font>Tax offices</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/gesundheitsaemter/"><font><font>Health authorities</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/kfz-zulassungsstellen/"><font><font>Vehicle registration</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/jugendaemter/"><font><font>Youth Offices</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/ordnungsaemter/"><font><font>Regulatory agencies</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/sozialaemter/"><font><font>Social Services</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/standesaemter/"><font><font>Registry Offices</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/standorte/weitere/"><font><font>Further locations</font></font></a>                    </li>
+</ul>        </li>
+        <li class="active has-submenu">
+            <a href="https://service.berlin.de/terminvereinbarung/"><font><font>Appointment</font></font></a>            <ul class="nav" style="visibility: hidden;">        <li class="">
+            <a href="https://service.berlin.de/terminvereinbarung/hinweise/"><font><font>Notices</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/terminvereinbarung/termin/terminaendern.php"><font><font>Change dates</font></font></a>                    </li>
+        <li class="">
+            <a href="https://service.berlin.de/terminvereinbarung/datenschutzerklaerung/"><font><font>Privacy Policy</font></font></a>                    </li>
+</ul>        </li>
+        <li class=" has-submenu">
+            <a href="https://service.berlin.de/onlineverfahren-onlinedienstleistungen/"><font><font>Online procedure</font></font></a>                    </li>
+        <li class=" has-submenu">
+            <a href="https://service.berlin.de/app/"><font><font>App</font></font></a>                    </li>
+                                            </ul>
+                                        <div class="beberlin"><img alt="Logo beBerlin" title="Logo beBerlin" src="./Appointment - add data_files/logo_beberlin_darkblue.png"></div>
+                                    </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--NAVIGATION END: horizontal-->
+
+<!-- content start -->
+<!-- row - span12 -->
+
+
+                        <!-- NAVIGATION BEGIN: breadcrumb -->
+<div class="row row-breadcrumb">
+  <div class="span10">
+
+    <nav class="html5-section breadcrumb" aria-label="Breadcrumb">
+      <p id="aural_breadcrumblabel" class="aural"><font><font>You are here:</font></font></p>
+      <ul aria-labelledby="aural_breadcrumblabel">
+        <li class="odd pos0"><a href="https://service.berlin.de/" class="homehaus"><font><font>service.berlin.de</font></font></a></li><li class="even pos1"><a href="https://service.berlin.de/terminvereinbarung/"><font><font>Appointment</font></font></a></li>        <li class="aural"><font><font>Appointment in Berlin authorities</font></font></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="span2"></div>
+</div>
+<!-- NAVIGATION END: breadcrumb -->
+
+<div class="row">
+    <div class="span2 column-left">
+        <!-- NAVIGATION BEGIN: vertical -->
+<div class="html5-nav content-navigation-left navbar">
+    <div class="navbar-inner">
+        <nav class="hidden-phone nav-collapse collapse" aria-label="Sekundäre Navigation">
+            <h6 class="aural"><font><font>Secondary Navigation</font></font></h6>
+            <ul class="nav level-0">
+                <li class="active"><a href="https://service.berlin.de/terminvereinbarung/"><font><font>Appointment</font></font></a>                    <ul class="level-1"><li>
+    <a href="https://service.berlin.de/terminvereinbarung/hinweise/"><font><font>Notices</font></font></a>    </li>
+<li>
+    <a href="https://service.berlin.de/terminvereinbarung/termin/terminaendern.php"><font><font>Change dates</font></font></a>    </li>
+<li>
+    <a href="https://service.berlin.de/terminvereinbarung/datenschutzerklaerung/"><font><font>Privacy Policy</font></font></a>    </li>
+</ul>                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- NAVIGATION END: vertical -->
+    </div>
+
+    <div class="span7 column-content">
+        <h6 class="aural" id="aural_maincontent"><font><font>Content column</font></font></h6>
+        <div class="html5-section article" role="main">
+
+<!--anker:allris-->
+
+
+
+<div id="hhibody" class="zms"> <!-- HHI BODY Begin: all HHI contents ////////////////////////////////////////////////////// -->
+
+    <!-- BREADCRUMB Begin  ////////////////////////////////////////////////////// -->
+        <!-- BREADCRUMB End  ////////////////////////////////////////////////////// -->
+
+
+    <!-- OPENER Begin -->
+    <h1><font><font>Appointment location Bürgeramt Helle Mitte</font></font></h1>
+    <!-- OPENER End  -->
+
+
+    <!-- MERKZETTEL Begin  ////////////////////////////////////////////////////// -->
+        <!-- MERKZETTEL Begin  ////////////////////////////////////////////////////// -->
+            <div class="collapsible-group closed">
+                <div class="collapsible-heading row-fluid">
+                    <div class="collapsible-toggle">
+                        <div class="table-cell collapsible-counter span1"><font><font>
+                            1                        </font></font></div>
+                        <div class="table-cell collapsible-title span3"><font><font>
+                            service                        </font></font></div>
+                        <div class="table-cell collapsible-description span7">
+                            <div class="bullet"><font><font> Application for a flat </font></font></div>                        </div>
+                        <div class="table-cell collapsible-options span1">
+                            <a class="edit icon-pencil" href="https://service.berlin.de/dienstleistungen/?zms=1" accesskey="1" title="For service selection" tabindex="13"><font><font>change</font></font></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapsible-group closed">
+                <div class="collapsible-heading row-fluid">
+                    <div class="collapsible-toggle">
+                        <div class="table-cell collapsible-counter span1"><font><font>
+                            2                        </font></font></div>
+                        <div class="table-cell collapsible-title span3"><font><font>
+                            date
+                        </font></font></div>
+                        <div class="table-cell collapsible-description span7"><font><font>
+                           Thu 03 December 2015                        </font></font></div>
+                        <div class="table-cell collapsible-options span1">
+                            <a class="edit icon-pencil" href="https://service.berlin.de/terminvereinbarung/termin/tag.php?buergerID=114868&buergername=webreservierung&id=109&behoerde=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/" accesskey="2" title="Back to selection of the day" tabindex="15"><font><font>change</font></font></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapsible-group closed">
+                <div class="collapsible-heading row-fluid">
+                    <div class="collapsible-toggle">
+                        <div class="table-cell collapsible-counter span1"><font><font>
+                            3                        </font></font></div>
+                        <div class="table-cell collapsible-title span3"><font><font>
+                            Time of day
+                        </font></font></div>
+                        <div class="table-cell collapsible-description span7"><font><font>
+                           16:00 clock                        </font></font></div>
+                        <div class="table-cell collapsible-options span1">
+                            <a class="edit icon-pencil" href="https://service.berlin.de/terminvereinbarung/termin/termin.php?buergerID=114868&buergername=webreservierung&OID=71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791&datum=2015-12-03&behoerde=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/" accesskey="3" title="Change Time" tabindex="16"><font><font>change</font></font></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapsible-group closed">
+                <div class="collapsible-heading row-fluid">
+                    <div class="collapsible-toggle">
+                        <div class="table-cell collapsible-counter span1"><font><font>
+                            4                        </font></font></div>
+                        <div class="table-cell collapsible-title span3"><font><font>
+                            location
+                        </font></font></div>
+                        <div class="table-cell collapsible-description span7"><font><font>
+                           Bürgeramt Helle Mitte - Alice-Salomon-Platz 3, 12627 Berlin                        </font></font></div>
+                        <div class="table-cell collapsible-options span1">
+                            <a class="edit icon-pencil" href="https://service.berlin.de/standorte/?zms=1" accesskey="3" title="Back to site selection" tabindex="17"><font><font>change</font></font></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <!-- MERKZETTEL End  ////////////////////////////////////////////////////// -->
+    <!-- MERKZETTEL End  ////////////////////////////////////////////////////// -->
+
+
+    <!-- TASK Begin  ////////////////////////////////////////////////////// -->
+    <div class="collapsible-group">
+        
+        <div class="collapsible-heading row-fluid">
+            <div class="collapsible-toggle">
+                <span class="table-cell collapsible-counter span1"><font><font>5 </font></font></span>
+                <span class="table-cell collapsible-title span11"><font><font>Customer Data &amp; Booking</font></font></span>
+            </div>
+        </div>
+    
+        <div class="collapsible-body" id="kundendaten">
+            <form class="form-land form-zms" action="https://service.berlin.de/terminvereinbarung/termin/bestaetigung.php" method="post" onsubmit="return CheckInput();">
+                <h2 class="title"><font><font>Please enter your customer data:</font></font></h2>
+                <fieldset>
+                    <div class="row-fluid">
+                       <div class="span6">
+                            <div class="control-group">
+                                <label for="Nachname" class="control-label"><font><font>Your name and surname: </font></font><span class="required-symbol"><font><font>*</font></font></span></label>
+                                <div class="controls">
+                                    <input type="text" class="span12" name="Nachname" id="Nachname" value="" maxlength="50" tabindex="5"> 
+                                </div>
+                            </div>
+                       </div><!--/span6-->
+          
+                        <div class="span6">
+                            <div class="control-group">
+                                <label class="control-label" for="EMail"><font><font>Your email address:
+                                                                </font></font></label>
+                                <div class="controls">
+                                    <input type="text" class="span12" name="EMail" id="EMail" value="" maxlength="100" tabindex="6" title="Important notice: Please check your e-mail address correct spelling!">
+                                </div><font><font>
+                                 (voluntarily, for appointment confirmation)                            </font></font></div>
+                        </div><!--/span6-->
+                    </div><!--/row-fluid-->
+          
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="control-group">
+                                <label class="control-label" for="telefonnummer_fuer_rueckfragen"><font><font>Your phone number:
+                                     </font></font><span class="required-symbol"><font><font>*</font></font></span>                                </label>
+                                <div class="controls">
+                                    <input type="text" name="telefonnummer_fuer_rueckfragen" id="telefonnummer_fuer_rueckfragen" value="" maxlength="100" tabindex="6">
+                                </div>
+                            </div>
+                        </div><!--/span6-->
+                    </div><!--/row-fluid-->
+          
+                    <div class="row-fluid">
+                        <div class="control-group">
+                            <label class="control-label" for=""></label>
+                            <div class="controls">
+                                <textarea class="span12 maxchars" name="Anmerkung" id="Anmerkung" rows="3" maxlength="300" tabindex="7" data-gramm="" data-txt_gramm_id="16e02cdc-74d3-f101-f491-fe9b0be22d28"></textarea><span class="formcharquota-status" style="display:block;text-align:right;background-color:grey;padding-right:3px;color:white"><font><font>0/300 characters</font></font></span>
+                            </div>
+                        </div>
+                    </div><!--/row-fluid-->
+                </fieldset>
+        
+                
+                
+                <fieldset>
+            
+                    <label><font><font>Privacy Policy</font></font></label>
+                    <p><font><font>Your data will be in accordance with the </font></font><a href="https://service.berlin.de/terminvereinbarung/datenschutzerklaerung/" target="_blank" class="extern"><font><font>Privacy Statement</font></font></a><font><font> processed.</font></font></p>
+                    <label><font><font>Terms and conditions </font></font><span class="required"><font><font>*</font></font></span>
+                    </label>
+<div class="control-group">
+                        <label class="checkbox control-label">        
+                            <input id="agbbestaetigung" type="checkbox" name="agbgelesen" value="1" tabindex="11"><font><font>
+                            I agree to the </font></font><a href="https://service.berlin.de/terminvereinbarung/nutzungsbedingungen/" target="_blank" class="extern"><font><font>Terms of Use</font></font></a><font><font> agreement and accept it. </font><font>(Required information. Appointment entry only with permission possible)
+                        </font></font></label>
+                    </div>
+                </fieldset>
+                
+                <input type="hidden" name="Datum" value="2015-12-03"> 
+                <input type="hidden" name="Uhrzeit" value="16:00:00"> 
+                <input type="hidden" name="SID" value="109"> 
+                <input type="hidden" name="OID" value="74365">
+                <input type="hidden" name="OIDListe" value="71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791"> 
+                <input type="hidden" name="buergerID" value="114868"> 
+                <input type="hidden" name="slots" value="2"> 
+                <input type="hidden" name="herkunft" value="http://service.berlin.de/terminvereinbarung/">
+      
+                <input type="hidden" name="anliegen[]" value="120686">
+    
+                <input type="hidden" name="emailpruefen" value="1">
+                <input type="hidden" name="gelesen" value="1">
+    
+                <p><font><font>
+                    * Required fields
+                </font></font></p>
+                <font><font><input class="btn" type="submit" id="sendbuttondisabled" disabled="disabled" style="display:none;" value="Add meeting to schedule" accesskey="o" tabindex="12"></font></font>
+                <font><font><input class="btn" type="submit" id="sendbutton" value="Add meeting to schedule" accesskey="o" tabindex="12"></font></font>
+    
+            </form>
+        </div> <!-- /collapsible-body End -->
+    </div>      <!-- /collapsible-group  End  ////////////////////////////////////////////////////// -->
+
+
+</div> <!-- HHI BODY End: all HHI contents  ////////////////////////////////////////////////////// -->
+<br><br>
+<script type="text/javascript">
+grundeinstellung();   
+</script>
+        </div><!-- /html5-section -->
+
+            </div>
+    
+    <!-- INCLUDE BEGIN: Infocolumn -->
+<div class="span3 column-right html5-aside" role="complementary">
+    <h2 class="aural"><font><font>Here are the contents of the right side column</font></font></h2>
+    <div class="html5-section content-marginal">
+
+
+                        <!-- FLEX BEGIN: ContactInclude --><div class="html5-section modul-contactinclude"><!--FLEX BEGIN: Text/Bild-->
+<div class="html5-section block modul-text_bild float">    <div class="html5-header header">
+                        <h3 class="title"><font><font>Service provider</font></font></h3>    </div>
+<div class="html5-figure image main-image type-teaser" style="">
+<a href="http://www.itdz-berlin.de/" target="_blank" title="Detail Page (opens in new window)">    <img src="./Appointment - add data_files/saved_resource" alt="Link to: Detail Page" title="Detail Page">
+</a>
+
+</div>
+    <div class="html5-section body">
+                <div class="text ">
+            <div class="textile">
+  <p><font><font>
+    The </font></font><span class="caps"><font><font>ITDZ</font></font></span><font><font> Berlin - the solutions partner for the modern Administration
+  </font></font></p>
+</div>        </div>
+               </div>
+</div>
+<!--FLEX END: Text/Bild-->
+</div><!-- FLEX END: ContactInclude --><!-- FLEX BEGIN: ContactInclude --><div class="html5-section modul-contactinclude"></div><!-- FLEX END: ContactInclude -->    </div>
+</div>
+<!-- INCLUDE END: Infocolumn -->
+</div>
+
+<!--    container-wrapper + container + row + span12 -->
+
+                                                <div class="row">
+                            <div class="span12">
+                                <div class="html5-footer content-footer" role="contentinfo">
+                                                                        <!-- NAVIGATION BEGIN: footer -->
+
+    <div class="html5-nav">
+        <ul class="nav">
+            <li><a href="https://service.berlin.de/hinweise/artikel.2696.php" class="ic-fa-impressum"><font><font>imprint</font></font></a></li>
+            <li class="right"><a class="ic-fa-print" href="javascript:window.print();"><font><font>Printer-friendly version</font></font></a></li>
+            <li class="right"><a class="ic-fa-totop" href="https://service.berlin.de/terminvereinbarung/termin/eintragen.php?buergerID=&buergername=&OID=74365&OIDListe=71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791&datum=2015-12-03&zeit=16:00:00&behoerde=&slots=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/#top"><font><font>Top of page</font></font></a></li>
+        </ul>
+    </div>
+
+<!-- NAVIGATION END: footer -->
+                                                                        <div class="section_splitter hidden-desktop hidden-tablet"></div>
+                                    <div class="html5-nav meta-navi hidden-desktop hidden-tablet">
+                                        <ul class="nav">
+                                                                                    </ul>
+                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                        <div class="container-wrapper container-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        
+<!-- template start: portal-footer -->
+<div class="html5-footer portal-footer">
+    <div>
+        <div class="textile">
+  <p><font><font>
+    These pages are responsible by the Senate Chancellery of the Governing Mayor.
+  </font></font></p>
+</div>        <p><font><font>
+            Berlin.de is an offer from the state of Berlin and the Berlin Stadtportal GmbH &amp; Co. KG. </font><font>More information can be found in </font><font>Contacts.        </font></font><a href="http://www.berlin.de/wir-ueber-uns-be/impressum/"><font></font></a><font></font></p>
+    </div>
+    <div class="html5-nav">
+        <ul class="nav">
+            <li><font><font>Other metropolitan sites:</font></font></li>
+            <li><a href="http://www.hamburg.de/"><font><font>Hamburg</font></font></a></li>
+            <li><a href="http://www.muenchen.de/"><font><font>Munich</font></font></a></li>
+            <li><a href="http://www.koeln.de/"><font><font>Cologne</font></font></a></li>
+        </ul>
+    </div><!-- /html5-nav -->
+</div><!-- /html5-footer -->
+<!-- /template end: portal-footer -->
+                    </div>
+                </div>
+            </div>
+        </div>
+                        
+        <div class="navigation-mobile hidden-desktop hidden-tablet" role="navigation">
+            <p class="navSkip"><font><font>Navigate directly to:</font></font></p>
+            <ul class="navSkip">
+                <li><a href="https://service.berlin.de/terminvereinbarung/termin/eintragen.php?buergerID=&buergername=&OID=74365&OIDListe=71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791&datum=2015-12-03&zeit=16:00:00&behoerde=&slots=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/#mobile-nav-toggle" tabindex="1"><font><font>navigation </font></font><!-- append text per css here --></a></li>
+            </ul>
+            <div class="sticky-header bde-gradient">
+                <div class="red-line"></div>
+                                <div class="portal-logo">
+                    <a title="Link leads to the homepage of Berlin.de" href="http://www.berlin.de/">
+                        <img title="Link leads to the homepage of Berlin.de" alt="Picture shows: Berlin.de Logo" src="./Appointment - add data_files/berlin_de.png">
+                    </a>
+                </div>
+                                <button class="btn nav-toggle" id="mobile-nav-toggle">
+                    <span class="icon-menu"> 
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </span>
+                </button>
+            </div>
+            <div class="wrapper">
+                <div class="sticky-container-head">
+                    <div class="offcanvas-search">
+                    <form class="institutionssuche institutionssuche-mobile" method="get" action="https://service.berlin.de/suche/stichwort/">
+    <div class="control-group searchform mobile" role="search">
+        <p class="aural" id="aural_institutionssuche_mobile"><font><font>
+            Search on the website 'Service Portal Berlin':        </font></font></p>
+        <input type="search" placeholder="Suchbegriff" name="x" aria-labelledby="aural_institutionssuche_mobile" maxlength="255" title="Here you can enter text to search the website &#39;Service Portal Berlin&#39;">
+        <button class="btn global-search-submit" type="submit">
+            <span class="hidden-phone"><font><font>Search</font></font></span>
+        </button>
+    </div>
+</form>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <div class="nav-container-body">
+                        <ul class="nav-menu menu">
+                            <li class="menu-item has-dropdown">
+                                <a href="https://service.berlin.de/terminvereinbarung/termin/eintragen.php?buergerID=&buergername=&OID=74365&OIDListe=71298,71316,71352,71172,72891,50792,73083,69942,59608,73828,73831,67593,73834,72879,73930,72873,73789,73029,73077,62131,61606,62116,49343,72909,72903,72915,74371,71160,74365,72654,72642,72666,74233,73071,73053,73059,58099,58102,74119,74122,58075,58078,58177,58180,66798,66804,66816,71805,71811,71817,71823,71829,74311,74317,74323,74329,69807,71418,71430,65028,73888,73537,71367,72936,69531,73894,38355,73984,38334,73924,72582,72588,72594,72489,72495,72501,72507,70242,70245,72990,51544,72996,62785,51522,62791&datum=2015-12-03&zeit=16:00:00&behoerde=&slots=&anliegen%5B%5D=120686&dienstleister%5B%5D=122210&dienstleister%5B%5D=122217&dienstleister%5B%5D=122219&dienstleister%5B%5D=122227&dienstleister%5B%5D=122231&dienstleister%5B%5D=122238&dienstleister%5B%5D=122243&dienstleister%5B%5D=122252&dienstleister%5B%5D=122260&dienstleister%5B%5D=122262&dienstleister%5B%5D=122254&dienstleister%5B%5D=122271&dienstleister%5B%5D=122273&dienstleister%5B%5D=122277&dienstleister%5B%5D=122280&dienstleister%5B%5D=122282&dienstleister%5B%5D=122284&dienstleister%5B%5D=122291&dienstleister%5B%5D=122285&dienstleister%5B%5D=122296&dienstleister%5B%5D=150230&dienstleister%5B%5D=122301&dienstleister%5B%5D=122297&dienstleister%5B%5D=122294&dienstleister%5B%5D=122312&dienstleister%5B%5D=122314&dienstleister%5B%5D=122304&dienstleister%5B%5D=122311&dienstleister%5B%5D=122309&dienstleister%5B%5D=317869&dienstleister%5B%5D=324433&dienstleister%5B%5D=325341&dienstleister%5B%5D=324434&dienstleister%5B%5D=122281&dienstleister%5B%5D=324414&dienstleister%5B%5D=122283&dienstleister%5B%5D=122279&dienstleister%5B%5D=122276&dienstleister%5B%5D=122274&dienstleister%5B%5D=122267&dienstleister%5B%5D=122246&dienstleister%5B%5D=122251&dienstleister%5B%5D=122257&dienstleister%5B%5D=122208&dienstleister%5B%5D=122226&herkunft=http://service.berlin.de/terminvereinbarung/#!" class="menu-link"><font><font>
+                                    Service Portal Berlin                                </font></font></a>
+                                <ul class="nav-dropdown menu">
+                                    <li class="menu-item">
+                                        <a href="https://service.berlin.de/" class="menu-link" title="Link to: Home Service Directory Berlin"><font><font>Service Portal Berlin: Home</font></font></a>                                        <ul class="nav">        <li class=" menu-item">
+            <a href="https://service.berlin.de/themen/" class=" menu-link"><font><font>Themes</font></font></a>                    </li>
+        <li class=" menu-item">
+            <a href="https://service.berlin.de/dienstleistungen/" class=" menu-link"><font><font>Services</font></font></a>                    </li>
+        <li class=" menu-item">
+            <a href="https://service.berlin.de/standorte/" class=" menu-link"><font><font>Locations</font></font></a>                    </li>
+        <li class=" menu-item active">
+            <a href="https://service.berlin.de/terminvereinbarung/" class=" menu-link"><font><font>Appointment</font></font></a>                    </li>
+        <li class=" menu-item">
+            <a href="https://service.berlin.de/onlineverfahren-onlinedienstleistungen/" class=" menu-link"><font><font>Online procedure</font></font></a>                    </li>
+        <li class=" menu-item">
+            <a href="https://service.berlin.de/app/" class=" menu-link"><font><font>App</font></font></a>                    </li>
+</ul>                                    </li>
+                                </ul>
+<!-- HIER 1 -->
+                                
+		<ul class="sub crumbs1">
+			<li class="menu-item has-no-dropdown">
+<a href="https://service.berlin.de/terminvereinbarung/" class="menu-link"><font><font>Appointment</font></font></a><ul class="sub level-1">
+<li class="menu-item has-no-dropdown">
+    <a href="https://service.berlin.de/terminvereinbarung/hinweise/" class="menu-link"><font><font>Notices</font></font></a>
+    </li>
+<li class="menu-item has-no-dropdown">
+    <a href="https://service.berlin.de/terminvereinbarung/termin/terminaendern.php" class="menu-link"><font><font>Change dates</font></font></a>
+    </li>
+<li class="menu-item has-no-dropdown">
+    <a href="https://service.berlin.de/terminvereinbarung/datenschutzerklaerung/" class="menu-link"><font><font>Privacy Policy</font></font></a>
+    </li>
+</ul><!-- class="sub level-1" -->
+			</li>
+		</ul><!-- crumbs1 -->
+<!-- HIER 2 -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./Appointment - add data_files/bo-foot.js"></script>
+
+<!-- Werbung -->
+
+<!-- Zählpixel -->
+
+<div id="cp">
+<script type="text/javascript">/*<![CDATA[*/
+if (typeof(DartIvwKategorie) == "undefined") DartIvwKategorie="beberlin";
+
+
+var CP = location.protocol+"//boss.berlinonline.de/cp.php?a=berlin&amp;r="+escape(document.referrer)+"&amp;cat="+DartIvwKategorie+"&amp;p="+escape(document.location)+"&amp;d="+(Math.random()*100000);
+document.write("<img src=\""+CP+"\" width=\"1\" height=\"1\" alt=\"\" id=\"cp_pixel\" style=\"position:absolute;width:1px;height:1px;\" />");
+/*]]>*/</script><img src="./Appointment - add data_files/cp.php" width="1" height="1" alt="" id="cp_pixel" style="position:absolute;width:1px;height:1px;">
+<noscript>&lt;img src="https://boss.berlinonline.de/cp.php?a=berlin&amp;amp;p=https%3A%2F%2Fservice.berlin.de%2Fservice.berlin.de%2Fterminvereinbarung%2F__i9%2Fstd%2Ffoot.inc&amp;amp;r=" alt="" /&gt;</noscript>
+
+    <div id="ivw">
+
+         <!-- szm pixel desktop variante -->
+<!-- SZM VERSION="2.0" -->
+<script type="text/javascript" src="./Appointment - add data_files/iam.js"></script>
+<script type="text/javascript">
+var iam_data = {"mg":"yes","cp":DartIvwKategorie,"oc":DartIvwKategorie,"st":"berlin","sv":(location.pathname=="/"?"ke":"in"),"co":location.hostname}
+iom.c(iam_data,1);
+</script>
+<!-- /SZM -->
+
+    </div>
+</div>
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.berlinonline.de"]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.berlinonline.de/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", document.location.hostname.match(/service\.berlin\.de$/) ? "6" : "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+
+
+
+
+
+
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./Appointment - add data_files/translate_24dp.png" width="20" height="20"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body><div><div class="gr_-editor" style="display:none;" data-grammarly-reactid=".0"><div class="gr_-editor_back" data-grammarly-reactid=".0.0"></div><iframe class="gr_-ifr gr-_dialog-content" data-grammarly-reactid=".0.1"></iframe></div></div><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span><grammarly-card><div style="top:0;left:0;visibility:hidden;" class="gr-grammar-card" data-grammarly-reactid=".1"><span style="margin-left:0;" class="gr-grammar-card_triangle" data-grammarly-reactid=".1.0"></span><div class="gr-grammar-card_footer" data-grammarly-reactid=".1.4"><div class="gr-grammar-card_link" data-action="editor" data-grammarly-reactid=".1.4.0"><font><font>Correct with Grammarly</font></font></div><div class="gr-grammar-card_btn-close gr-grammar-card_ignore" data-action="ignore" data-grammarly-reactid=".1.4.2"><font><font>Ignore</font></font></div></div></div></grammarly-card></html>
